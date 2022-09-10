@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* menu */
+nav {
+    width: 100%;
+    background-color: #353b48;
+    /* position: fixed; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    display: flex;
+}
+
+nav .menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    /* z-index: 1; */
+}
+
+nav .menu li:hover a {
+    color: #fff;
+    background-color: black;
+    transition: all 0.3s;
+}
+
+.toggle {
+    display: none;
+    background-color: #353b48;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* my blog */
+.my-blog h1 {
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+}
+
+.my-blog p {
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+}
+
+.w3-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* blog */
+.box {
+    background-color: #fff;
+    width: 895px;
+    margin: 45px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.mota {
+    padding: 15px;
+}
+
+.mota h5 {
+    padding-top: 15px;
+    font-weight: normal;
+}
+
+.mota .w3-opacity {
+    opacity: 0.6;
+}
+
+.mota .para-1 {
+    text-align: justify;
+}
+
+.mota .read {
+    padding-top: 15px;
+}
+
+.mota .read button {
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.mota .read button:hover {
+    background-color: #ccc;
+}
+
+.mota .number {
+    float: right;
+    margin-top: -30px;
+}
+
+/* my-blog */
+.my-box {
+    background-color: #fff;
+    width: 400px;
+    margin: 45px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    float: right;
+    margin-top: -88.7%;
+    margin-right: 70px;
+}
+
+.mota-my {
+    padding: 15px;
+}
+
+.mota-my h5 {
+    padding-top: 15px;
+    font-weight: normal;
+}
+
+.mota-my .my-opacity {
+    opacity: 0.6;
+}
+
+.mota-my .para-2 {
+    text-align: justify;
+}
+
+.work-shop {
+    background-color: #fff;
+    width: 400px;
+    margin: 45px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    float: right;
+    margin-top: -52%;
+    margin-right: 70px;
+}
+
+.work-shop .post {
+    padding: 15px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.post h4 {
+    font-weight: lighter;
+}
+
+.post-link {
+    list-style-type: none;
+}
+
+.post-link .post-sub {
+    padding: 16px;
+}
+
+.post-link .post-sub:hover {
+    background-color: #ccc;
+}
+
+.post-link .lorem {
+    margin-top: -59px;
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+.post-link .sed-matic {
+    margin-left: 65px;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.tag {
+    background-color: #fff;
+    width: 400px;
+    margin: 45px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    float: right;
+    margin-top: -22.5%;
+    margin-right: 70px;
+}
+
+.tag .tag-hd {
+    padding: 15px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.tag-hd h4 {
+    font-weight: lighter;
+}
+
+.tags-sub {
+    padding: 15px;
+}
+
+.tags-sub .tag-black {
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+}
+
+.tags-sub .tag-white {
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+/* footer */
+.end {
+    padding: 15px;
+}
+
+.end .previous {
+    color: #fff;
+    background-color: #000;
+    padding: 15px;
+    cursor: not-allowed;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.end .previous:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.end .next {
+    color: #fff;
+    background-color: #000;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.end .next:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.end p, .fb {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.end .fb:hover {
+    color: brown;
+}
+
+
+/* Viewport */
+@media screen and (max-width: 768px){
+    .menu {
+        flex-direction: column;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .box {
+        width: 94.6666%;
+        margin-left: 10px;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .my-box {
+        width: 94.6666%;
+        margin-right: 11px;
+        margin-top: 1px;
+    }
+
+    .work-shop {
+        width: 94.6666%;
+        margin-right: 11px;
+        margin-top: 1px;
+    }
+
+    .tag {
+        width: 94.6666%;
+        margin-right: 11px;
+        margin-top: 1px;
+    }
+}
+
