@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://scontent.xx.fbcdn.net/v/t1.15752-9/300670911_751872229237951_4838201610158513120_n.png?stp=dst-png_p206x206&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_ohc=oeHlbjxPeYAAX9YqApR&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AVK_Of36IuJBLbA6iy1O4nXpI_Fgc1_JvQmQLypSA0gYEQ&amp;oe=6344E8A9" type="image/icon">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+
+    <div class="wrapper">
+        <!-- menu -->
+        <div class="header">
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/">Trang chủ</a></li>
+                    <li><a href="#gioithieu">Giới thiệu</a></li>
+                    <li><a href="#lienhe">Liên hệ</a></li>
+                    <li><a href="#myblog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="background-image">
+            <div class="image-nhat">
+                <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/287192213_5769576273067095_1734154704736944984_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hJv5io0YbnoAX9CBEnI&_nc_ht=scontent.fsgn2-3.fna&oh=03_AVJt9_AW3ss4jtSQk-o14IK7u5Dc8nbnPGuofgeIi-ZsZg&oe=63493D46" alt="" style="width: 100%">
+            </div>
+            <div class="banthan">
+                <p class="name">MY NAME <br> NGUYỄN HOÀNG DUY NHẤT</p>
+                <p class="cap"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est enim tanti philosophi tamque nobilis 
+                    audacter sua decreta defendere.</i></p>
+            </div>
+            <div class="click-now">
+                <input type="button" value="CLICK NOW" class="click-now-btn">
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
