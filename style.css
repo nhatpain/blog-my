@@ -300,6 +300,7 @@ hr {
     border: 2px solid #fff;
     margin-top: 40px;
     margin-left: 45%;
+    border-radius: 5px;
 }
 
 .click-now .click-now-btn:hover {
