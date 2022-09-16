@@ -274,6 +274,38 @@ hr {
     color: brown;
 }
 
+/* Gioi thieu */
+/* background-image */
+.banthan .name {
+    text-align: center;
+    margin-top: -120%;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.banthan .cap {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Click now */
+.click-now .click-now-btn {
+    font-weight: 600;
+    padding: 15px 35px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    margin-left: 45%;
+}
+
+.click-now .click-now-btn:hover {
+    background-color: rgba(204, 204, 204, 0.5);
+    color: #000;
+}
 
 /* Viewport */
 @media screen and (max-width: 768px){
@@ -314,6 +346,15 @@ hr {
         width: 94.6666%;
         margin-right: 11px;
         margin-top: 1px;
+    }
+    
+    .banthan {
+        margin-top: 25px;
+    }
+
+    .click-now {
+        margin-top: -25px;
+        margin-right: 125px;
     }
 }
 
