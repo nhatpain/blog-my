@@ -276,7 +276,7 @@ hr {
 
 /* Gioi thieu */
 /* background-image */
-.banthan .name {
+.banthan-gioithieu .name-gioithieu {
     text-align: center;
     margin-top: -120%;
     color: #fff;
@@ -284,14 +284,14 @@ hr {
     font-weight: 700;
 }
 
-.banthan .cap {
+.banthan-gioithieu .cap-gioithieu {
     color: #fff;
     text-align: center;
     font-size: 16px;
 }
 
 /* Click now */
-.click-now .click-now-btn {
+.click-now-gioithieu .click-now-btn-gioithieu {
     font-weight: 600;
     padding: 15px 35px;
     color: #fff;
@@ -303,7 +303,7 @@ hr {
     border-radius: 5px;
 }
 
-.click-now .click-now-btn:hover {
+.click-now-gioithieu .click-now-btn-gioithieu:hover {
     background-color: rgba(204, 204, 204, 0.5);
     color: #000;
 }
@@ -349,11 +349,11 @@ hr {
         margin-top: 1px;
     }
     
-    .banthan {
+    .banthan-gioithieu {
         margin-top: 25px;
     }
 
-    .click-now {
+    .click-now-gioithieu {
         margin-top: -25px;
         margin-right: 125px;
     }
