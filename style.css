@@ -129,7 +129,7 @@ nav .menu li:hover a {
     margin: 45px;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     float: right;
-    margin-top: -86.5%;
+    margin-top: -88%;
     margin-right: 70px;
 }
 
@@ -340,6 +340,61 @@ hr {
     color: #000;
 }
 
+/* CONTACT */
+.mobile-contact {
+    line-height: 1.8;
+}
+
+.h1-ct {
+    color: #000;
+    text-align: center;
+    margin-top: 60%;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.fan-ct {
+    color: #000;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    opacity: 0.6;
+}
+
+.pain-ct {
+    margin: 40px 24%;
+}
+
+/* form */
+.et {
+    margin-top: -87px;
+    float: right;
+}
+
+.et #email-name {
+    padding: 8px;
+}
+
+.submit {
+    padding: 8px 11px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 82%;
+}
+
+.submit:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.end-pain {
+    filter: grayscale(50%);
+    width: 102%;
+    margin-left: -30px;
+    margin-top: 10%;
+}
 
 /* Viewport */
 @media screen and (max-width: 768px){
@@ -399,5 +454,33 @@ hr {
         margin-top: -25px;
         margin-right: 125px;
     }
-}
 
+    .mobile-contact {
+        margin-top: -150px;
+    }
+
+    .pain-ct {
+        margin-left: 12px;
+    }
+
+    .pain-ct-2 {
+        margin-left: 2px;
+    }
+
+    .form-pain {
+        margin-top: 96px;
+    }
+
+    #email-name {
+        width: 130%;
+    }
+
+    .submit {
+        margin-left: 109%;
+    }
+
+    .end-pain {
+        margin-top: 55%;
+        margin-left: -2%;
+    }
+}
