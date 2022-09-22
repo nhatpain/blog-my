@@ -129,7 +129,7 @@ nav .menu li:hover a {
     margin: 45px;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     float: right;
-    margin-top: -86.5%;
+    margin-top: -88%;
     margin-right: 70px;
 }
 
@@ -156,7 +156,7 @@ nav .menu li:hover a {
     margin: 45px;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     float: right;
-    margin-top: -51%;
+    margin-top: -52%;
     margin-right: 70px;
 }
 
@@ -300,7 +300,6 @@ hr {
     border: 2px solid #fff;
     margin-top: 40px;
     margin-left: 45%;
-    border-radius: 5px;
 }
 
 .click-now-gioithieu .click-now-btn-gioithieu:hover {
@@ -308,24 +307,24 @@ hr {
     color: #000;
 }
 
-/* Contact*/
+/* Contact */
 /* background-image */
-.banthan-contact .name-contact {
+.banthan-lienhe .name-lienhe {
     text-align: center;
-    margin-top: -68%;
+    margin-top: -66%;
     color: #fff;
     font-size: 27px;
     font-weight: 700;
 }
 
-.banthan-contact .cap-contact {
+.banthan-lienhe .cap-lienhe {
     color: #fff;
     text-align: center;
     font-size: 16px;
 }
 
 /* Click now */
-.click-now-contact .click-now-btn-contact {
+.click-now-lienhe .click-now-btn-lienhe {
     font-weight: 600;
     padding: 15px 35px;
     color: #fff;
@@ -334,13 +333,13 @@ hr {
     border: 2px solid #fff;
     margin-top: 40px;
     margin-left: 45%;
-    border-radius: 5px;
 }
 
-.click-now-contact .click-now-btn-contact:hover {
+.click-now-lienhe .click-now-btn-lienhe:hover {
     background-color: rgba(204, 204, 204, 0.5);
     color: #000;
 }
+
 
 /* Viewport */
 @media screen and (max-width: 768px){
@@ -382,7 +381,7 @@ hr {
         margin-right: 11px;
         margin-top: 1px;
     }
-    
+
     .banthan-gioithieu {
         margin-top: 25px;
     }
@@ -391,12 +390,12 @@ hr {
         margin-top: -25px;
         margin-right: 125px;
     }
-    
-    .banthan-contact {
+
+    .banthan-lienhe {
         margin-top: 25px;
     }
 
-    .click-now-contact {
+    .click-now-lienhe {
         margin-top: -25px;
         margin-right: 125px;
     }
