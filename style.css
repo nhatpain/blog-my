@@ -308,6 +308,40 @@ hr {
     color: #000;
 }
 
+/* Contact*/
+/* background-image */
+.banthan-contact .name-contact {
+    text-align: center;
+    margin-top: -68%;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.banthan-contact .cap-contact {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Click now */
+.click-now-contact .click-now-btn-contact {
+    font-weight: 600;
+    padding: 15px 35px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    margin-left: 45%;
+    border-radius: 5px;
+}
+
+.click-now-contact .click-now-btn-contact:hover {
+    background-color: rgba(204, 204, 204, 0.5);
+    color: #000;
+}
+
 /* Viewport */
 @media screen and (max-width: 768px){
     .menu {
@@ -354,6 +388,15 @@ hr {
     }
 
     .click-now-gioithieu {
+        margin-top: -25px;
+        margin-right: 125px;
+    }
+    
+    .banthan-contact {
+        margin-top: 25px;
+    }
+
+    .click-now-contact {
         margin-top: -25px;
         margin-right: 125px;
     }
