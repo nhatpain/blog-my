@@ -422,7 +422,7 @@ hr {
     width: 69%;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     position: absolute;
-    top: 316%;
+    top: 323%;
     left: 15%;
     background-color: #fff;
 }
@@ -442,6 +442,8 @@ hr {
     position: absolute;
     top: 350%;
     filter: grayscale(50%);
+    left: -2%;
+    width: 102%;
 }
 
 
