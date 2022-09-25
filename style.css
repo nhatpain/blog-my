@@ -17,6 +17,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 
 /* menu */
@@ -396,6 +397,54 @@ hr {
     margin-top: 10%;
 }
 
+/* Introduce */
+.image-introduce {
+    width: 250px;
+    margin: 110em 15em;
+}
+
+.thongtin {
+    position: absolute;
+    top: 271%;
+    right: 45%;
+    line-height: 2.2;
+}
+
+.thongtin .ten {
+    font-weight: 900;
+}
+
+.thongtin .mota-introduce {
+    opacity: 0.5;
+}
+
+.caption-introduce {
+    width: 69%;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    position: absolute;
+    top: 316%;
+    left: 15%;
+    background-color: #fff;
+}
+
+.hello {
+    opacity: 0.3;
+}
+
+.nguvan, .hello {
+    text-align: justify;
+    padding: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.introduce-end {
+    position: absolute;
+    top: 350%;
+    filter: grayscale(50%);
+}
+
+
 /* Viewport */
 @media screen and (max-width: 768px){
     .menu {
@@ -482,5 +531,30 @@ hr {
     .end-pain {
         margin-top: 55%;
         margin-left: -2%;
+    }
+
+    .image-introduce {
+        margin: 19em 3px;
+        width: 139px;
+    }
+
+    .thongtin {
+        font-size: 12px;
+        position: absolute;
+        top: 80%;
+        right: 8px;
+        line-height: 1.7;
+    }
+
+    .caption-introduce {
+        position: absolute;
+        top: 54em;
+        left: 3px;
+        width: 98%;
+    }
+
+    .introduce-end {
+        position: absolute;
+        top: 154%;
     }
 }
