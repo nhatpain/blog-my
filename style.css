@@ -413,12 +413,12 @@ hr {
 /* Introduce */
 .image-introduce {
     width: 250px;
-    margin: 110em 15em;
+    margin: 112em 15em;
 }
 
 .thongtin {
     position: absolute;
-    top: 271%;
+    top: 288%;
     right: 45%;
     line-height: 2.2;
 }
@@ -435,7 +435,7 @@ hr {
     width: 69%;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     position: absolute;
-    top: 328%;
+    top: 336%;
     left: 15%;
     background-color: #fff;
 }
@@ -453,7 +453,7 @@ hr {
 
 .introduce-end {
     position: absolute;
-    top: 350%;
+    top: 370%;
     filter: grayscale(50%);
     left: -2%;
     width: 102%;
