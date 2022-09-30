@@ -60,6 +60,19 @@ nav .menu li:hover a {
     cursor: pointer;
 }
 
+.search-btn {
+    float: right;
+    color: #fff;
+    margin-top: -43px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.search-btn:hover {
+    background-color: #000;
+    transition: all 0.3s;
+}
+
 /* my blog */
 .my-blog h1 {
     padding: 50px 50px 0px 50px;
