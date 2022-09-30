@@ -549,8 +549,8 @@ hr {
     }
 
     .image-introduce {
-        margin: 69% 3px;
-        width: 137px;
+        margin: 19em 3px;
+        width: 139px;
     }
 
     .thongtin {
@@ -563,7 +563,7 @@ hr {
 
     .caption-introduce {
         position: absolute;
-        top: 110%;
+        top: 54em;
         left: 3px;
         width: 98%;
     }
