@@ -572,4 +572,8 @@ hr {
         position: absolute;
         top: 154%;
     }
+    
+    .search-btn {
+        margin: -52% 9%;
+    }
 }
