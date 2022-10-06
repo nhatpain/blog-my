@@ -3,5 +3,10 @@ function docThem() {
 }
 
 function clickLienHe() {
-    prompt('Bạn có muốn click vô đây không?');
+    let thongBao = confirm('Bạn có muốn click vô đây không?');
+    if(thongBao) {
+        alert('Bạn đã nhấn OK!');
+    }else{
+        alert('Bạn đã nhấn Cancel!');
+    }
 }
