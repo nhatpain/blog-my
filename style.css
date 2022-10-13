@@ -82,3 +82,57 @@ body {
     background-color: dodgerblue; left: 15px; top: 15px;
   }
 }
+
+@media screen and (max-width: 768px){
+    .hoten {
+      width: 100px;
+    }
+
+    .ten {
+      margin-left: 5px;
+    }
+
+    @keyframes example {
+      0% {
+          background-color: greenyellow; left: 5px; top: 5px;
+      }
+    
+      25% {
+          background-color: red; left: 200px; top: 5px;
+      }
+    
+      50% {
+          background-color: yellow; left: 200px; top: 200px;
+      }
+    
+      75% {
+          background-color: black; left: 5px; top: 200px;
+      }
+    
+      100% {
+        background-color: dodgerblue; left: 5px; top: 5px;
+      }
+    }
+
+    @keyframes example2 {
+      0% {
+          background-color: greenyellow; left: 5px; top: 5px;
+      }
+    
+      25% {
+          background-color: red; left: 200px; top: 5px;
+      }
+    
+      50% {
+          background-color: yellow; left: 200px; top: 200px;
+      }
+    
+      75% {
+          background-color: black; left: 55px; top: 200px;
+      }
+    
+      100% {
+        background-color: dodgerblue; left: 55px; top: 5px;
+      }
+    }
+}
